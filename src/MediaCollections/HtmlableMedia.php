@@ -45,10 +45,6 @@ class HtmlableMedia implements Htmlable
 
     public function toHtml()
     {
-        if (! (new Image())->canHandleMime($this->media->mime_type)) {
-            return '';
-        }
-
         $attributeString = collect($this->extraAttributes)
             ->map(fn ($value, $name) => $name.'="'.$value.'"')->implode(' ');
 
