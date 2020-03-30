@@ -1,6 +1,6 @@
 {
-    "name": "spatie/laravel-medialibrary",
-    "description": "Associate files with Eloquent models",
+    "name": "sergeyugai/laravel-medialibrary",
+    "description": "A fork of spatie/laravel-medialibrary for personal use.",
     "keywords": [
         "spatie",
         "laravel-medialibrary",
